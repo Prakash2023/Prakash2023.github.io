@@ -12,7 +12,7 @@ header {
     right: 0;
     height: 50px;
     line-height: 50px;
-    background-color: #eee;
+    background-color: #008080;
 }
 
 header * {
@@ -72,13 +72,13 @@ header a {
 /* Add everything below here */
 
 #hero {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX18887053.jpg');
+    background-image:  url('https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX18887053.jpg');
 }
 
 #about {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('http://www.allwhitebackground.com/images/5/Blue-Texture-Background-Pics.jpg');
+    background-image: url('http://www.allwhitebackground.com/images/5/Blue-Texture-Background-Pics.jpg');
 }
 
 #contact {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/canyon.jpg');
+    background-image: url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/canyon.jpg');
 }
