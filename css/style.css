@@ -65,8 +65,8 @@ section h3 {
 }
 
 header a {
-    text-decoration: none;
-    color: Red;
+    text-decoration: Red;
+    color: Black;
 }
 
 /* Add everything below here */
