@@ -1,43 +1,84 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
 }
-nav ul li, footer ul li {
+
+header * {
     display: inline;
-    margin-right: 20px;
+    height: 50px;
 }
-a {
-    text-decoration: none;
-    color: #999;
+
+header ul {
+    padding: 0;
 }
-a:hover {
-    text-decoration: underline;
+
+header li {
+    margin-left: 20px;
 }
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
 }
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+
+#hero .profile-img {
+    width: 300px;
+    border-radius: 50%;
 }
+
 footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    text-align: center;
+    padding: 50px;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+#hero h1 {
+    font-size: 3em;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h3 {
     font-size: 1.5em;
 }
 
-ul.posts li {
-    list-style: none;
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Add everything below here */
+
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX18887053.jpg');
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('http://www.allwhitebackground.com/images/5/Blue-Texture-Background-Pics.jpg');
+}
+
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/canyon.jpg');
 }
